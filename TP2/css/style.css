@@ -229,7 +229,7 @@ img.ofi, img.coding {
     width: 40%;
 }
 
-img.foto, img.ofi, img.coding::after{
+img.foto::after, img.ofi::after, img.coding::after{
     content: "";
     clear: both;
     display: table;
@@ -271,6 +271,7 @@ p.experiencia-info{
 
 .contenido li, .tareas li {
     text-align: right;
+    list-style-position: inside;
 }
 
 /* HABILIDADES */
