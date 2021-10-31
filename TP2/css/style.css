@@ -8,7 +8,7 @@ body {
 }
 
 .wrapper {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -219,25 +219,48 @@ a, a:visited {
 
 /* MI CV: foto y experiencias */
 
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.main section {
+    min-width: 55%;
+    width: calc((48em - 100%) * 1000);
+    max-width: 100%;
+}
+
+.main aside {
+    min-width: 35%;
+    width: calc((48em - 100%) * 1000);
+    max-width: 100%;
+}
+
 img.foto {
-    float: left;
-    width: 30%;
-    margin-top: 4.4rem;
+    width: 80%;
 }
 
-img.ofi, img.coding {
-    width: 40%;
+img.coding {
+    width: 98%;
+    margin-top: 30%;
 }
 
-img.foto::after, img.ofi::after, img.coding::after{
-    content: "";
-    clear: both;
-    display: table;
+img.ofi {
+    width: 98%;
+    margin-top: 26%;
 }
+
+/* img.foto::after, img.ofi::after, img.coding::after{ */
+    /* content: ""; */
+    /* clear: both; */
+    /* display: table; */
+/* } */
 
 .intro {
     font-family: 'Libre Franklin', sans-serif;
     font-size: 2.4rem;
+    text-align: center;
     border: 6px double rgb(71, 71, 71);
 }
 
