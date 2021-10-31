@@ -66,7 +66,7 @@ hr {
 	justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../img/lain.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../img/portada.jpg);
     background-size: cover;   
 }
 
