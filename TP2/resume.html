@@ -29,18 +29,21 @@
     <!--Mi CV, con mi foto y mi información académica y profesional-->
 
     <div class="wrapper">
+      
+      <div id="estudios">
+        <a href="resume.html#estudios"
+          ><h2 class="intro">TRAYECTORIA ACADÉMICA</h2></a
+        >
+      </div>
 
-      <div>
-        <img
+      <article class="main">
+        <aside>        <img
           src="img/cv.jpg"
           alt="Mi foto: joven caucásica con pelo negro y lentes, sonriendo."
           class="foto"
-        />
+        /></aside>
+      <section>
 
-        <div id="estudios">
-          <a href="resume.html#estudios"
-            ><h2 class="intro">TRAYECTORIA ACADÉMICA</h2></a
-          >
           <p class="experiencia">Tecnicatura Universitaria en Programación</p>
           <p class="experiencia-info">UTN Mar del Plata.</p>
           <ul class="contenido">
@@ -63,12 +66,18 @@
             </li>
             <li>Contenido: HTML, CSS, JavaScript, Bootstrap.</li>
           </ul>
+      </section>
+      </article>
 
+        <article class="main">
+          <aside>
           <img
             src="img/frontend.gif"
             alt="Imagen animada de un botón que dice Apply Now: muestra el HTML, CSS, y JavaScript."
             class="foto coding"
           />
+        </aside>
+        <section>
 
           <p class="experiencia">Codo a Codo 4.0</p>
           <p class="experiencia-info">
@@ -112,21 +121,25 @@
               >
             </li>
           </ul>
-        </div>
-      </div>
-
-      <div>
-        <img
-          src="img/oficina.jpg"
-          alt="Mi foto: joven caucásica con pelo negro y lentes, usando la computadora en una oficina."
-          class="foto ofi"
-        />
+    </section>
+  </article>
 
         <div id="trabajos">
           <a href="resume.html#trabajos"
             ><h2 class="intro" style="margin-top: 6rem">RESUMEN LABORAL</h2></a
           >
+        </div>  
+        
+        <article class="main">
+      <aside>
+        <img
+          src="img/oficina.jpg"
+          alt="Mi foto: joven caucásica con pelo negro y lentes, usando la computadora en una oficina."
+          class="foto ofi"
+        />
+      </aside>
 
+<section>
           <p class="experiencia">Traductora en DECASTRO</p>
           <p class="experiencia-info">Freelance interpreter. (Sep 2021-Act)</p>
           <ul class="tareas">
@@ -185,9 +198,8 @@
               clientes fijos y modalidad e-commerce.
             </li>
           </ul>
-        </div>
-      </div>
-
+        </section>
+        </article>
       <!--Mis habilidades-->
 
       <div class="habilidades" id="habilidades">
