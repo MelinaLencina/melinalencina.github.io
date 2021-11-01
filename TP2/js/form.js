@@ -26,12 +26,12 @@ function sendData() {
       encodeURIComponent(form.querySelector("[nombre='email']").value)
   );
   urlEncodedDataPairs.push(
-    encodeURIComponent("phone") +
+    encodeURIComponent("tel") +
       "=" +
       encodeURIComponent(form.querySelector("[nombre='tel']").value)
   );
   urlEncodedDataPairs.push(
-    encodeURIComponent("date") +
+    encodeURIComponent("empresa") +
       "=" +
       encodeURIComponent(form.querySelector("[name='empresa']").value)
   );
