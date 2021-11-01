@@ -22,7 +22,7 @@ header {
 .logo {
     font-size: 2.2rem;
     font-family: 'Parisienne', cursive;
-    padding: 1rem 0 0 3rem;
+    padding: 4% 0 0 5%;
     line-height: 1;
 }
 
@@ -33,12 +33,12 @@ header {
 }
 
 nav ul {
-    margin-top: 4.5rem;
+    margin-top: 20%;
 }
 
 nav li {
     display: inline-block;
-    font-size: 1.6rem;
+    font-size: 160%;
     font-weight: bold;
 }
 
@@ -251,12 +251,6 @@ img.ofi {
     margin-top: 26%;
 }
 
-/* img.foto::after, img.ofi::after, img.coding::after{ */
-    /* content: ""; */
-    /* clear: both; */
-    /* display: table; */
-/* } */
-
 .intro {
     font-family: 'Libre Franklin', sans-serif;
     font-size: 2.4rem;
@@ -301,8 +295,7 @@ p.experiencia-info{
 
 .habilidades {
     text-align: center;
-    margin-top: 8rem;
-    margin-bottom: 6rem;
+    margin: 10% 0;
 }
 
 .habilidades-lista, .habilidades-lista2{
@@ -317,7 +310,7 @@ p.experiencia-info{
     font-size: 1.8rem;
     list-style: none;
     border-radius: 10px;
-    padding: 0.8rem;
+    padding: 0.8%;
 }
 
 .habilidades-lista2 {
