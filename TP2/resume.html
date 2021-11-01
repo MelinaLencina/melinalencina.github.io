@@ -229,7 +229,7 @@
           ><h2 class="intro contacto">CONTACTO</h2></a
         >
 
-        <form method="POST" action="#">
+        <form method="POST" action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES">
           <fieldset>
             <legend>Dejame tu consulta</legend>
             <ul>
@@ -302,6 +302,8 @@
                 <input type="text" id="in" name="in" placeholder="Opcional" />
               </li>
             </ul>
+
+            <input id="send_to" type="hidden" name="send_to" value="melina00lencina@gmail.com">
 
             <button type="submit">ENVIAR</button>
           </fieldset>
