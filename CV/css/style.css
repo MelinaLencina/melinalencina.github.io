@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Satisfy&family=Parisienne&family=Libre+Franklin:ital,wght@1,300;1,600&family=Nunito:wght@800&family=Arvo:wght@700&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient(85deg, rgb(31, 189, 168), rgb(240, 115, 252));
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* HEADER y NAV */
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    font-size: 2.2rem;
+    font-family: 'Parisienne', cursive;
+    padding: 4% 0 0 5%;
+    line-height: 1;
+}
+
+.logo:hover {
+    color: #ec74fa;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+nav ul {
+    margin-top: 20%;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 160%;
+    font-weight: bold;
+}
+
+nav a {
+    display: block;
+    padding: 0.5rem 1.3rem;
+}
+
+nav a:hover {
+    background-color: black;
+    color: #37dea6;
+
+}
+
+hr {
+    border: 2px solid black;
+    margin-top: 1.5rem;
+}
+
+/* INICIO */
+
+.portada {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../img/portada.jpg);
+    background-size: cover;   
+}
+
+h2.bienvenido {
+    font-size: 620%;
+    font-family: 'Libre Franklin', sans-serif;
+    color: rgb(142, 245, 231);
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+}
+
+.portada p {
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 2px 2px 3px black;
+    font-size: 2.5rem;
+    font-family: 'Arvo', serif;
+    text-align: center;
+    line-height: 4rem;
+}
+
+.inicio {
+    display: flex;
+    justify-content: space-around;
+    margin: 10rem 0 0 0;
+}
+
+.inicio img {
+    width: 30%;
+    border-radius: 3rem;
+}
+
+
+.info {
+    margin: 0;
+    padding: 0;
+}
+
+
+.info h2 {
+    font-size: 2rem;
+    margin: 0.8rem 0;
+}
+
+.info p {
+    font-family: 'Libre Franklin', sans-serif;
+    margin: 0 0 7rem 0;
+    font-size: 1.3rem;
+}
+
+/* BLOG: QUIÉN SOY */
+
+.cordoba {
+	display: grid;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/cordoba.jpg');
+    background-size: cover;
+}
+
+
+.cordoba p {
+    font-family: 'Arvo', serif;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    text-shadow: 7px 4px 5px black;
+    margin: 0 0 4rem 0;
+    padding: 0 2rem;
+}
+
+h2.titulo {
+    font-family: 'Nunito', sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    color: rgb(240, 115, 252);
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    text-shadow: 7px 4px 5px black;
+}
+
+.tecnologia p {
+    font-family: 'Arvo', serif;
+    font-size: 2.3rem;
+    text-align: center;
+    padding: 5rem 2rem;
+}
+
+.blog-gifs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.blog-gifs img {
+    width: 32%;
+}
+
+.pandemia {
+    display: grid;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/tecnologia.jpg");
+    background-size: cover;
+    margin-top: 6rem;
+    padding: 3rem;
+}
+
+.pandemia p, .gracias p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    text-shadow: 10px 5px 5px black;
+}
+
+.gracias {
+    display: grid;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("../img/gracias.png");
+    background-size: cover;
+    padding: 12rem;
+    margin: 4rem 0;
+}
+
+.gracias p {
+    font-size: 6rem;
+    margin: 0;
+}
+
+p.reminder {
+    font-size: 3.2rem;
+    color: rgb(240, 115, 252);
+    text-shadow: 2px 1px 2px black;
+    letter-spacing: 0.25rem;
+}
+
+p.reminder a {
+    color: rgb(97, 245, 188);
+}
+
+p.reminder a:hover {
+    color: rgb(207, 240, 88);    
+}
+
+a, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* MI CV: foto y experiencias */
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.main section {
+    min-width: 55%;
+    width: calc((48em - 100%) * 1000);
+    max-width: 100%;
+}
+
+.main aside {
+    min-width: 35%;
+    width: calc((48em - 100%) * 1000);
+    max-width: 100%;
+}
+
+img.foto {
+    width: 80%;
+}
+
+img.coding {
+    width: 98%;
+    margin-top: 30%;
+}
+
+img.ofi {
+    width: 98%;
+    margin-top: 26%;
+}
+
+.intro {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 2.4rem;
+    text-align: center;
+    border: 6px double rgb(71, 71, 71);
+}
+
+.intro:hover {
+    background-color: black;
+    color: rgb(142, 245, 231);
+}
+
+p.experiencia, .experiencia-info{
+    font-size: 2rem;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+p.experiencia {
+    margin-top: 3rem;
+}
+
+p.experiencia-info{
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+.contenido, .tareas {
+    display: flex;
+    flex-flow: column;
+    font-size: 1.2rem;
+    margin: 0.8rem 0;
+}
+
+.contenido li, .tareas li {
+    text-align: right;
+    list-style-position: inside;
+}
+
+/* HABILIDADES */
+
+.habilidades {
+    text-align: center;
+    margin: 10% 0;
+}
+
+.habilidades-lista, .habilidades-lista2{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.habilidades-lista li, .habilidades-lista2 li {
+    color:rgb(142, 245, 231);
+    background-color: rgb(17, 17, 17);
+    font-size: 1.8rem;
+    list-style: none;
+    border-radius: 10px;
+    padding: 0.8%;
+}
+
+.habilidades-lista2 {
+    margin-top: 2rem;
+}
+
+/* FORM */
+
+.contacto {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7rem;
+}
+
+fieldset {
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+fieldset li {
+    display: flex;
+    justify-content: space-between;
+}
+
+legend {
+	font-size: 1.3rem;
+	margin-top: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+label {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+input, textarea, select {
+    font-family: 'Ubuntu', sans-serif;
+	font-size: 1.3em;
+	width: 50rem;
+	border-radius: 10px;
+	margin-bottom: 2rem;
+	padding: 0 1rem;
+}
+
+textarea {
+	height: 10rem;
+	padding: 1rem;
+}
+
+select {
+	font-size: 1.2rem;
+}
+
+button {
+    font-family: 'Libre Franklin', sans-serif;
+	font-size: 1.2rem;
+    font-weight: bold;
+	background-color: #ec74fa;
+	border: none;
+    border-bottom: 2px outset black;
+	border-radius: 15px;
+    margin: 2rem 4rem;
+	padding: 1rem 2rem;
+}
+
+button:hover {
+	background-color: #a931b6;
+}
+
+/* FOOTER */
+
+p.top {
+    display: inline;
+    font-weight: bold;
+    margin: 0 2rem;
+}
+
+footer {
+    font-size: 1rem;
+    padding-bottom: 0.6rem;
+    text-align: center;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer li img {
+    width: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
