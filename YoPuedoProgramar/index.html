@@ -1,0 +1,185 @@
+<!--
+***    BIENVENIDOS a mi proyecto final    ***
+
+Este proyecto fue realizado utilizando mis conocimientos en HTML, CSS, Bootstrap, y en menor medida JavaScript.
+
+Se trata de mi modelo de página web para mi emprendimiento
+de pastelería casera en la ciudad de Mar del Plata.
+
+La página consta de: una página principal (index), y 4 sub-páginas,
+(catálogo, presupuestos, nosotras, redes). Cada documento
+HTML cuenta con su respectiva stylesheet CSS.
+
+Estoy ansiosa por ir mejorando mi técnica de
+programación web y adquirir conocimientos de
+otros lenguajes.
+
+***************** Melina Lencina. Agosto 2021 *****************
+
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Pastelería de Mel</title>
+
+    <link rel = "icon" href = 
+    "assets/img/icon.jpg" 
+            type = "image/x-icon">
+              
+
+    <!-- CSS only -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="index.css">
+
+
+</head>
+
+<body>
+   
+<!--PORTADA-->
+
+    <header class="masthead">
+        <div id="portada" class="container">
+            <div class="masthsead-subheading"><h1>La Pastelería de Mel</h1></div>
+            <div class="masthead-heading text-uppercase"><h4>Delicias caseras</h4></div> 
+            <a class="btn btn-outline-dark" href="catalogo.html">Ver productos</a>
+        </div> 
+    </header> 
+
+<!--MENÚ-->
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img width="300" src="assets/img/name.png" alt="La Pastelería de Mel" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menú
+                <i class="fas fa-bars ms-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="catalogo.html">Catálogo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="presupuestos.html">Presupuestos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="nosotras.html">Nosotras</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!--BIENVENIDOS-->
+
+    <section class="page-section" id="bienvenidos">
+        <div class="container">
+            <div class="text-center">
+                <p class="section-heading">Bienvenidos</p><br>
+                <h3 class="section-subheading text-muted">Realizamos pastelería casera.<br>Usamos materiales de primera calidad, siempre agregándole<br> esa pizca de cariño que necesita tu mesa.</h3>
+            </div>
+
+            <br><br>
+
+<!--SECCIONES-->
+
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <a class="btn btn-primary btn-circle" href="catalogo.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                      </svg>
+                    </a>
+                    <h4 class="my-3">Catálogo</h4>
+                    <p class="info text-muted">Ofrecemos una gran variedad de productos. Haciendo click en el carrito podés ver fotos de pedidos entregados.</p>
+                </div> 
+                <div class="col-md-4">
+                    <a class="btn btn-primary btn-circle" href="presupuestos.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-calculator" viewBox="0 0 16 16">
+                            <path d="M12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
+                            <path d="M4 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-2zm0 4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-4z"/>
+                          </svg>
+                    </a>
+                    <h4 class="my-3">Presupuestos</h4>
+                    <p class="info text-muted">Armamos tu presupuesto según tus necesidades.<br>Podés contarnos tu idea y nosotras armamos tu mesa dulce perfecta.</p>
+                </div>
+                <div class="col-md-4">
+                    <a class="btn btn-primary btn-circle"  href="nosotras.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-at" viewBox="0 0 16 16">
+                            <path d="M13.106 7.222c0-2.967-2.249-5.032-5.482-5.032-3.35 0-5.646 2.318-5.646 5.702 0 3.493 2.235 5.708 5.762 5.708.862 0 1.689-.123 2.304-.335v-.862c-.43.199-1.354.328-2.29.328-2.926 0-4.813-1.88-4.813-4.798 0-2.844 1.921-4.881 4.594-4.881 2.735 0 4.608 1.688 4.608 4.156 0 1.682-.554 2.769-1.416 2.769-.492 0-.772-.28-.772-.76V5.206H8.923v.834h-.11c-.266-.595-.881-.964-1.6-.964-1.4 0-2.378 1.162-2.378 2.823 0 1.737.957 2.906 2.379 2.906.8 0 1.415-.39 1.709-1.087h.11c.081.67.703 1.148 1.503 1.148 1.572 0 2.57-1.415 2.57-3.643zm-7.177.704c0-1.197.54-1.907 1.456-1.907.93 0 1.524.738 1.524 1.907S8.308 9.84 7.371 9.84c-.895 0-1.442-.725-1.442-1.914z"/>
+                          </svg>
+                    </a>
+                    <h4 class="my-3">Nosotras</h4>
+                    <p class="info text-muted">Te contamos quiénes somos y cómo comenzó este emprendimiento, creemos que cada pedido cuenta una historia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container col-lg-12 mb-12">
+        <div class="portfolio-item">
+            <a class="portfolio-link" href="catalogo.html">
+                <div class="portfolio-hover">
+                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                </div>
+                <img class="img-fluid" src="assets/img/entrega.jpg" id="entrega" width="800" alt="Tarta marquise brownie, torta dona glaseada, alfajores de maicena." />
+            </a>
+        </div>
+</div>
+
+<!--GRACIAS-->
+
+    <section id="visita">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Gracias por visitarnos</h2>
+                <h3 class="section-subheading text-muted">Somos Melina y Fabiana.<br><br><a href="nosotras.html"><img id="gracias" src="assets/img/gracias.jpg" width="300" alt="Nuestra foto. Somos madre e hija."></a></h3>
+            </div>
+</div>
+</section>
+
+<!--FOOTER-->
+
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-lg-start">Todos los derechos reservados. &copy; <br> La Pastelería de Mel 2021</div>
+                <div class="col-lg-4  my-3 my-lg-0">
+                    <a class="btn btn-dark btn-circle btn-sm" href="https://wa.me/message/SJXOH7XVPLRVO1" target=”_blank>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                            <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                          </svg>
+                    </a>
+                    <a class="btn btn-dark btn-circle btn-sm" href="https://www.facebook.com/lapasteleriademel" target=”_blank>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                          </svg> 
+                    </a>
+                    <a class="btn btn-dark btn-circle btn-sm" href="https://www.instagram.com/melpasteleria/" target=”_blank>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                          </svg>
+                    </a>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <a class="link-dark text-decoration me-3" href="nosotras.html">Nosotras</a>
+                    <a class="link-dark text-decoration" href="redes.html">Contactanos</a> 
+                </div>
+            </div>
+        </div>
+    </footer> 
+
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
