@@ -424,13 +424,33 @@ footer li img {
 }
 
 header.masthead {
-    padding-top: 10.5rem;
-    padding-bottom: 6rem;
+    padding-top: 15rem;
+    padding-bottom: 13rem;
     text-align: center;
     color: black;
-    background-image: url("img/portada.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../img/portada.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center;
     background-size: cover;
+}
+
+h2.bienvenido {
+    font-size: 620%;
+    font-family: 'Libre Franklin', sans-serif;
+    color: rgb(142, 245, 231);
+    font-weight: 700;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+}
+
+#portada p {
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 2px 2px 3px black;
+    font-size: 2.5rem;
+    font-family: 'Arvo', serif;
+    text-align: center;
+    line-height: 4rem;
 }
