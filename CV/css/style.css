@@ -417,7 +417,7 @@ footer li img {
 #mainNav {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: white;
+    background: linear-gradient(85deg, rgb(31, 189, 168), rgb(240, 115, 252));
   }
 
 .nav-item {
