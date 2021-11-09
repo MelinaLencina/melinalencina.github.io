@@ -413,13 +413,24 @@ footer li img {
 
 /* RESPONSIVE */
 
-
 #mainNav {
     padding-top: 1rem;
     padding-bottom: 1rem;
     background: linear-gradient(85deg, rgb(31, 189, 168), rgb(240, 115, 252));
-  }
+}
 
 .nav-item {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+}
+
+header.masthead {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: black;
+    background-image: url("img/portada.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
 }
