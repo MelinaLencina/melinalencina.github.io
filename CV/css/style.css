@@ -454,3 +454,17 @@ h2.bienvenido {
     text-align: center;
     line-height: 4rem;
 }
+
+.btn-circle {
+    padding: 1rem;
+    border-radius: 25px;
+    font-size: 8px;
+    text-align: center;
+    border: none;
+}
+
+.footer {
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
