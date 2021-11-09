@@ -109,6 +109,7 @@ h2.bienvenido {
 .info h2 {
     font-size: 2rem;
     margin: 0.8rem 0;
+    font-weight: 700;
 }
 
 .info p {
@@ -426,6 +427,7 @@ footer li img {
 header.masthead {
     padding-top: 15rem;
     padding-bottom: 13rem;
+    margin-bottom: 4rem;
     text-align: center;
     color: black;
     background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../img/portada.jpg);
@@ -454,6 +456,21 @@ h2.bienvenido {
     text-align: center;
     line-height: 4rem;
 }
+
+.portfolio-item{
+    display: block;
+    text-align: center;
+  }
+
+  .img-fluid {
+      border-radius: 2rem;
+  }
+  
+
+  .col-lg-4 {
+      flex: 0 0 auto;
+      width: 33.33333333%;
+  }
 
 .btn.btn-circle {
     padding: 1rem;
