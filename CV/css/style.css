@@ -455,7 +455,7 @@ h2.bienvenido {
     line-height: 4rem;
 }
 
-.btn-circle {
+.btn.btn-circle {
     padding: 1rem;
     border-radius: 25px;
     font-size: 8px;
