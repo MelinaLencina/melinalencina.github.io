@@ -136,13 +136,8 @@ h2.bienvenido {
     padding: 5rem 2rem;
 }
 
-.blog-gifs {
-    display: flex;
-    justify-content: space-around;
-}
-
 .blog-gifs img {
-    width: 32%;
+    width: 100%;
 }
 
 .pandemia {
@@ -426,16 +421,6 @@ h2.bienvenido {
     text-align: center;
     line-height: 4rem;
 }
-
-.portfolio-item{
-    display: block;
-    text-align: center;
-  }
-
-  .img-fluid {
-      border-radius: 2rem;
-  }
-  
 
   .col-lg-4 {
       flex: 0 0 auto;
