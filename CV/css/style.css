@@ -10,6 +10,7 @@ body {
 .wrapper {
     width: 85%;
     margin: 0 auto;
+    margin-top: 6rem;
 }
 
 /* HEADER y NAV */
@@ -19,43 +20,22 @@ body {
     padding: 0;
 }
 
-.menu{
-    padding: 1rem;
-}
-
 .logo:hover {
     color: #ec74fa;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
 
-/*
 
-nav ul {
-    margin-top: 20%;
+#mainNav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: linear-gradient(85deg, rgb(31, 189, 168), rgb(240, 115, 252));
 }
 
-nav li {
-    display: inline-block;
-    font-size: 160%;
-    font-weight: bold;
+.nav-item {
+    font-size: 1.7rem;
 }
-
-nav a {
-    display: block;
-    padding: 0.5rem 1.3rem;
-}
-
-nav a:hover {
-    background-color: black;
-    color: #37dea6;
-
-}
-
-hr {
-    border: 2px solid black;
-    margin-top: 1.5rem;
-} */
 
 /* INICIO */
 
@@ -126,8 +106,7 @@ h2.bienvenido {
     background-size: cover;
 }
 
-
-.cordoba p {
+.section-subheading {
     font-family: 'Arvo', serif;
     font-size: 3rem;
     text-align: center;
@@ -139,9 +118,10 @@ h2.bienvenido {
     padding: 0 2rem;
 }
 
-h2.titulo {
+.section-heading {
+    margin-top: 8rem;
     font-family: 'Nunito', sans-serif;
-    font-size: 5rem;
+    font-size: 6rem;
     text-align: center;
     color: rgb(240, 115, 252);
     -webkit-text-stroke-color: black;
@@ -413,16 +393,6 @@ footer li img {
 }
 
 /* RESPONSIVE */
-
-#mainNav {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background: linear-gradient(85deg, rgb(31, 189, 168), rgb(240, 115, 252));
-}
-
-.nav-item {
-    font-size: 1.7rem;
-}
 
 header.masthead {
     padding-top: 15rem;
