@@ -47,7 +47,7 @@ function yourRadio() {
     }
   }
 
-  for (i = 0; i <=(resultado.length - 1); i++) {
+  for (i = 0; i <= resultado.length - 1; i++) {
     document.write(resultado[i] + " ");
   }
 }
