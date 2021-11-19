@@ -19,33 +19,33 @@ function yourRadio() {
   var resultado = [];
 
 
-  switch (radio) {
-      case ("par" && i % 5 == 0 ) : 
-      for (i=1;i<=100;i++){
-            resultado.push(i)};
-            break;
-        case ("impar" && i % 5 == 0 ) :
-            for (i=1;i<=100;i++){
-            resultado.push(i)};
-          break;
+  // switch (radio) {
+  //     case ("par" && i % 5 == 0 ) : 
+  //     for (i=1;i<=100;i++){
+  //           resultado.push(i)};
+  //           break;
+  //       case ("impar" && i % 5 == 0 ) :
+  //           for (i=1;i<=100;i++){
+  //           resultado.push(i)};
+  //         break;
   
-      default:
-          break;
+  //     default:
+  //         break;
+  // }
+  
+  if (radio == "par") {
+    for (i = 1; i <= 100; i++) {
+      if (i % 2 == 0 && i % 5 == 0) {
+        resultado.push(i);
+      }
+    }
+  } else {
+    for (i = 1; i <= 100; i++) {
+      if (i % 2 != 0 && i % 5 == 0) {
+        resultado.push(i);
+      }
+    }
   }
-  
-//   if (radio == "par") {
-//     for (i = 1; i <= 100; i++) {
-//       if (i % 2 == 0 && i % 5 == 0) {
-//         resultado.push(i);
-//       }
-//     }
-//   } else {
-//     for (i = 1; i <= 100; i++) {
-//       if (i % 2 != 0 && i % 5 == 0) {
-//         resultado.push(i);
-//       }
-//     }
-//   }
 
   for (i = 0; i <=(resultado.length - 1); i++) {
     document.write(resultado[i] + " ");
