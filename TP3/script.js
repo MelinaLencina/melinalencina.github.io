@@ -18,7 +18,6 @@ function yourRadio() {
   var radio = document.getElementById("paridad").value;
   var resultado = [];
 
-
   // switch (radio) {
   //     case ("par" && i % 5 == 0 ) : 
   //     for (i=1;i<=100;i++){
@@ -34,21 +33,21 @@ function yourRadio() {
   // }
   
   if (radio == "par") {
-    for (i = 1; i <= 100; i++) {
-      if (i % 2 == 0 && i % 5 == 0) {
-        resultado.push(i);
+    for (x = 1; x <= 100; x++) {
+      if (x % 2 == 0 && x % 5 == 0) {
+        resultado.push(x);
       }
     }
   } else {
-    for (i = 1; i <= 100; i++) {
-      if (i % 2 != 0 && i % 5 == 0) {
-        resultado.push(i);
+    for (x = 1; x <= 100; x++) {
+      if (x % 2 != 0 && x % 5 == 0) {
+        resultado.push(x);
       }
     }
   }
 
-  for (i = 0; i <= resultado.length - 1; i++) {
-    document.write(resultado[i] + " ");
+  for (x = 0; x <= resultado.length - 1; x++) {
+    document.write(resultado[x] + " ");
   }
 }
 
