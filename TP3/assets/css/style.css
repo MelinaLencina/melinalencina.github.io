@@ -1,0 +1,114 @@
+body {
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(https://www.thirtythreeforty.net/ticalcs_hu35015db71da79f6ad1078eeea5bc44b4_189712_filter_9592289451976887094.jpg);;
+    background-size: cover;
+} 
+
+form, .index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 79vh;
+}
+
+fieldset, .index div {
+    background: linear-gradient(rgba(114, 110, 110, 0.6), rgba(173, 117, 117, 0.6));
+    display: inline;
+    padding: 3rem;
+}
+
+legend, input, label, fieldset, .index div {
+    font-size: 2.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+legend {
+    text-shadow: 1px 1px 2px black, 0 0 8px white, 0 0 10px salmon;
+    font-size: 3rem;
+}
+
+select, button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    background-color: salmon;
+    border: none;
+    border-radius: 10px;
+}
+
+select:hover, button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: salmon;
+}
+
+.botonsegundo{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.pares li {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+li label {
+    font-size: 3rem;
+}
+
+li input {
+transform: scale(2);
+}
+
+.index div {
+    text-align: center;
+}
+
+h2, h3, h5 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px 2px black, 0 0 8px white, 0 0 10px salmon;
+}
+
+.index li {
+    display: inline-block;
+    font-size: 4rem;
+}
+
+.index a {
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px 2px black, 0 0 8px white, 0 0 10px salmon;
+    padding: 2rem;
+}
+
+.index a:hover {
+        color: salmon;
+        text-shadow: 1px 1px 2px black, 0 0 8px black, 0 0 10px black;
+}
+
+footer {
+    background-color: black;
+    padding: 1rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    font-size: 2.3rem;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px black,
+    0 0 8px black,
+    0 0 10px salmon;
+
+}
+
+footer a:hover {
+    cursor: pointer;
+    color: salmon;
+    text-shadow: 1px 1px 2px black,
+    0 0 8px black,
+    0 0 10px white;
+}
