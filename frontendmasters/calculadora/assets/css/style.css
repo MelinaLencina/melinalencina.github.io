@@ -5,8 +5,12 @@ html {
     box-sizing: inherit;
 }
 body {
-  padding: 0;
-  margin: 0;
+  margin: 2.5rem 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(https://fondosmil.com/fondo/27569.jpg);
+  background-size: cover;
 }
 .wrapper {
     width: 400px;
@@ -18,7 +22,7 @@ body {
     font-size: 40px;
     font-family: "Courier New", Courier, monospace;
     text-align: right;
-    padding: 20px 5px;
+    padding: 20px 20px;
 }
 .calc-button-row {
     display: flex;
@@ -27,7 +31,7 @@ body {
     margin-bottom: 0.5%;
 }
 .calc-button {
-    background-color: #d8d9db;
+    background-color: #b6ceff;
     color: black;
     height: 100px;
     flex-basis: 24.5%;
@@ -37,10 +41,10 @@ body {
     cursor: pointer;
 }
 .calc-button:hover {
-    background-color: #ebebeb;
+    background-color: #9cb1da;
 }
 .calc-button:active {
-    background-color: #bbbcbe;
+    background-color: #7c8cac;
 }
 .double {
     flex-basis: 49.7%;
