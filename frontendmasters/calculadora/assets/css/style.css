@@ -1,22 +1,31 @@
 html {
     box-sizing: border-box;
 }
-*, *:before, *:after {
+
+*,
+*:before,
+*:after {
     box-sizing: inherit;
 }
+
 body {
-  margin: 2.5rem 0 0 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(https://fondosmil.com/fondo/27569.jpg);
-  background-size: cover;
+    margin: 2.5rem 0 0 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://fondosmil.com/fondo/27569.jpg);
+    background-size: cover;
 }
+
+.centerrr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .wrapper {
-    width: 400px;
+    width: 450px;
     background-color: black;
     color: white;
 }
+
 .screen {
     color: white;
     font-size: 40px;
@@ -24,38 +33,46 @@ body {
     text-align: right;
     padding: 20px 20px;
 }
+
 .calc-button-row {
     display: flex;
     align-content: stretch;
     justify-content: space-between;
     margin-bottom: 0.5%;
 }
+
 .calc-button {
     background-color: #b6ceff;
     color: black;
-    height: 100px;
+    height: 80px;
     flex-basis: 24.5%;
     border: none;
     border-radius: 0;
     font-size: 40px;
     cursor: pointer;
 }
+
 .calc-button:hover {
     background-color: #9cb1da;
 }
+
 .calc-button:active {
     background-color: #7c8cac;
 }
+
 .double {
     flex-basis: 49.7%;
 }
+
 .triple {
     flex-basis: 74.8%;
 }
+
 .calc-button:last-child {
     background-color: #f845ad;
     color: white;
 }
+
 .calc-button:last-child:hover {
     background-color: #b6327f;
 }
@@ -63,6 +80,34 @@ body {
 .calc-button:last-child:active {
     background-color: #9b2b6c;
 }
+
 .calc-button-row:last-child {
     padding-bottom: 0;
+}
+
+.by {
+    font-size: 1rem;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(#20242e, rgba(156, 156, 156, 0.3));
+}
+
+.by p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-shadow: 2px 1px 10px gray;
+    padding-top: 0.6rem;
+}
+
+.by ul {
+    padding: 0;
+}
+
+.by li {
+    display: inline-block;
+}
+
+.by li img {
+    width: 3.6rem;
+    padding: 0 1rem 0.5rem 1rem;
 }
