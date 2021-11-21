@@ -8,3 +8,5 @@ Contiene:
 (TP2) Curso Front End ED3, Fundación Telefónica: trabajo final Módulo 2. [HTML5, CSS3, sin Responsive Design]
 
 (YoPuedoProgramar) Curso Web Development, ONG Junior Achivement + Microsoft: trabajo final. [HTML5, CSS3, Bootstrap] 
+
+(TP3) Curso Front End ED3, Fundación Telefónica: trabajo final Módulo 3: JavaScript. [HTML5, CSS3, JavaScript, sin Responsive Design]
