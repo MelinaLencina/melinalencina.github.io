@@ -1,31 +1,39 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tercer ejercicio</title>
-    <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link
+      rel="shortcut icon"
+      href="assets/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <script src="js/script.js"></script>
-</head>
-<body>
-    
-    <form action="#" method="get" onsubmit="yourSelect()">
-        <fieldset>
-          <legend>Haciendo cuentas:</legend>
-          <label>Elegí tu operación:</label>
-          <select name="opciones" id="opciones">
-              <option value="suma" id="suma">Sumar</option>
-              <option value="resta" id="resta">Restar</option>
-              <option value="multiplicación" id="multip">Multiplicar</option>
-          </select><br><br>
-          <input type="number" name="" id="num1" required min="0">
-          <input type="number" name="" id="num2" required min="0">
-          <button type="submit">Enviar</button>
-        </fieldset>
-      </form>
-<footer><h3><a href="index.html">Volver al inicio</a></h3></footer>
+  </head>
 
-</body>
+  <body>
+    <form action="#" method="GET" onsubmit="yourSelect()">
+      <fieldset>
+        <legend>Haciendo cuentas:</legend>
+        <label>Elegí tu operación:</label>
+        <select name="opciones" id="opciones">
+          <option value="suma" id="suma">Sumar</option>
+          <option value="resta" id="resta">Restar</option>
+          <option value="multiplicación" id="multip">Multiplicar</option>
+          </select>
+          <br /><br />
+        <input type="number" id="num1" required min="0" />
+        <input type="number" id="num2" required min="0" />
+        <button type="submit">Enviar</button>
+      </fieldset>
+    </form>
+
+    <footer>
+      <h3><a href="index.html">Volver al inicio</a></h3>
+    </footer>
+    
+  </body>
 </html>
