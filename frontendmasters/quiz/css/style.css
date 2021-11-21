@@ -1,92 +1,94 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Ubuntu&display=swap');
 
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-      background-image: url(https://cdn.pixabay.com/photo/2021/06/02/18/04/education-6305113_960_720.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
-  }
-  
-  #container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
+  box-sizing: border-box;
+}
 
-  .question {
-    background-color: lightgreen;
-    padding: 30px;
-    box-shadow: 5px 5px 5px #666;
-    text-align: center;
-  }
-  
-  label {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 2.2rem;
-  }
-  
-  input {
-    display: block;
-    width: 100%;
-    margin-top: 15px;
-    text-align: center;
-    padding: 0 15px;
-    font-size: 25px;
-    border-left-color: transparent;
-    border-right-color: transparent;
-    border-top-color: transparent;
-    border-bottom-color: #333;
-    font-family: 'Architects Daughter', cursive;
-  }
-  
-  button {
-    font-family: 'Ubuntu', sans-serif;
-    padding: 0 25px;
-    font-size: 25px;
-    margin-top: 15px;
-    cursor: pointer;
-    border-radius: 5px;
-  }
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2021/06/02/18/04/education-6305113_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  h1 {
-    color: black;
-    background-color: lightgreen;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 2rem;
-    padding: 30px;
-    box-shadow: 5px 5px 5px #666;
-  }
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
 
-  header {
-    display: flex;
-    justify-content: center;
-    margin-top: 1.2rem;
-  }
+.question {
+  background-color: lightgreen;
+  text-align: center;
+  box-shadow: 5px 3px 5px #666;
+  padding: 2.2rem;
+}
 
-  header div {
-    display: inline-block;
-    background-color: #191016;
-    color: white;
-    box-shadow: 2px 2px 5px black;
-    font-family: 'Ubuntu', sans-serif;
-    text-align: center;
-    padding: 0.3rem;
-  }
+label {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.2rem;
+}
 
-  header div h3 {
-    padding: 0.3rem;
-    margin: 0;
-  }
+input {
+  display: block;
+  font-family: 'Architects Daughter',
+  cursive;
+  font-size: 1.8rem;
+  text-align: center;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0 1rem;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  border-bottom-color: #333;
+}
 
-  header div p {
-    padding: 0;
-    margin: 0;
-  }
+button {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.8rem;
+  padding: 0 1.8rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h1 {
+  color: black;
+  background-color: lightgreen;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  box-shadow: 5px 3px 5px #666;
+  padding: 30px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.2rem;
+}
+
+header div {
+  display: inline-block;
+  color: white;
+  background-color: #191016;
+  font-family: 'Ubuntu',
+  sans-serif;
+  text-align: center;
+  box-shadow: 2px 2px 5px black;
+  padding: 0.3rem;
+}
+
+header div h3 {
+  padding: 0.3rem;
+  margin: 0;
+}
+
+header div p {
+  padding: 0;
+  margin: 0;
+}
