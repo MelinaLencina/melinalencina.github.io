@@ -49,15 +49,15 @@ body {
     flex-basis: 74.8%;
 }
 .calc-button:last-child {
-    background-color: #df974c;
+    background-color: #f845ad;
     color: white;
 }
 .calc-button:last-child:hover {
-    background-color: #dfb07e;
+    background-color: #b6327f;
 }
 
 .calc-button:last-child:active {
-    background-color: #dd8d37;
+    background-color: #9b2b6c;
 }
 .calc-button-row:last-child {
     padding-bottom: 0;
