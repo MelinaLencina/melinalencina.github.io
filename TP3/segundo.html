@@ -5,20 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Segundo ejercicio</title>
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="js/script.js"></script>
   </head>
 
   <body>
-    <form action="#" method="get" name="segundo" onsubmit="yourRadio()">
-      <fieldset>
-        <legend>Seleccione:</legend>
-        <label for="pares">Par: </label>
-        <input type="radio" id="paridad" name="pares" value="par" /><br />
-        <label for="impares"> Impar:</label>
-        <input type="radio" id="paridad" name="impares" value="impar" /><br />
-        <input type="submit" value="Enviar" />
+    <form action="#" method="GET" name="segundo" onsubmit="yourRadio()">
+      <fieldset class="pares">
+        <legend>Elegí:</legend>
+        <ul>
+          <li>
+        <label>Par: </label>
+        <input type="radio" class="radio" name="paridad" value="par" /><br />
+          </li>
+          <li>
+        <label> Impar:</label>
+        <input type="radio" class="radio" name="paridad" value="impar" /><br />
+          </li>
+        </ul>
+          <div  class="botonsegundo"><button type="submit">Enviar</button></div>
       </fieldset>
+
+
     </form>
 
-    <script src="script.js"></script>
+<footer><h3><a href="index.html">Volver al inicio</a></h3></footer>
+
   </body>
 </html>
