@@ -11,7 +11,6 @@ Contiene:
 
 (TP3) Curso Front End ED3, Fundación Telefónica: trabajo final Módulo 3: JavaScript. [HTML5, CSS3, JavaScript, sin Responsive Design]
 
-(frontendmasters) 
-   (calc) Diseñé una calculadora para el curso brindado por Jen Kramer y Brian Holt en Front-End Masters Bootcamp. [HTML5, CSS3, JavaScript, sin Responsive Design]
-   
-   (quiz) Quiz simple realizado en el curso brindado por Jen Kramer. [HTML5, CSS3, JavaScript, sin Responsive Design]
+(frontendmasters) (calc) Diseñé una calculadora para el curso brindado por Jen Kramer y Brian Holt en Front-End Masters Bootcamp. [HTML5, CSS3, JavaScript, sin Responsive Design]
+
+(frontendmasters) (quiz) Quiz simple realizado en el curso brindado por Jen Kramer. [HTML5, CSS3, JavaScript, sin Responsive Design]
