@@ -9,8 +9,7 @@ body {
   margin: 0;
 }
 .wrapper {
-    display: flex;
-    flex-flow: column nowrap;
+    width: 400px;
     background-color: black;
     color: white;
 }
@@ -20,10 +19,6 @@ body {
     font-family: "Courier New", Courier, monospace;
     text-align: right;
     padding: 20px 5px;
-    flex-basis: 20%;
-}
-.calc-buttons {
-    flex-basis: 80%;
 }
 .calc-button-row {
     display: flex;
