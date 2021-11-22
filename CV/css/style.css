@@ -15,7 +15,7 @@ body {
 
 /* HEADER y NAV */
 
-#top {
+.logo {
     font-family: 'Parisienne', cursive;
     padding: 0;
 }
@@ -134,10 +134,6 @@ h2.bienvenido {
     font-size: 2.3rem;
     text-align: center;
     padding: 5rem 2rem;
-}
-
-.blog-gifs img {
-    width: 100%;
 }
 
 .pandemia {
@@ -439,4 +435,10 @@ h2.bienvenido {
     text-align: center;
     font-size: 0.9rem;
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.blog-gifs {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
