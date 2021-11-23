@@ -299,67 +299,6 @@ p.experiencia-info{
     text-align: center;
 }
 
-form {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 7rem;
-}
-
-fieldset {
-	border: 1px solid black;
-	border-radius: 10px;
-}
-
-fieldset li {
-    display: flex;
-    justify-content: space-between;
-}
-
-legend {
-	font-size: 1.3rem;
-	margin-top: 1.5rem;
-	margin-bottom: 1rem;
-}
-
-label {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-input, textarea, select {
-    font-family: 'Ubuntu', sans-serif;
-	font-size: 1.3em;
-	width: 50rem;
-	border-radius: 10px;
-	margin-bottom: 2rem;
-	padding: 0 1rem;
-}
-
-textarea {
-	height: 10rem;
-	padding: 1rem;
-}
-
-select {
-	font-size: 1.2rem;
-}
-
-button {
-    font-family: 'Libre Franklin', sans-serif;
-	font-size: 1.2rem;
-    font-weight: bold;
-	background-color: #ec74fa;
-	border: none;
-    border-bottom: 2px outset black;
-	border-radius: 15px;
-    margin: 2rem 4rem;
-	padding: 1rem 2rem;
-}
-
-button:hover {
-	background-color: #a931b6;
-}
-
 /* FOOTER */
 
 p.top {
@@ -460,3 +399,26 @@ h2.bienvenido {
 .card-img-top{
     height: 280px;
 }
+
+.carousel{
+    margin-top: 3rem;
+    width: 80%;
+}
+
+.carouselCenter{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-item img{
+    height: 500px;
+}
+
+.carousel-caption{
+    text-shadow: 2px 2px 2px black;
+    font-weight: 700;
+}
+
+/* .carousel-caption {
+    
+} */

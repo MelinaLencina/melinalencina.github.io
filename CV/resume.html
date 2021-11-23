@@ -33,7 +33,7 @@
         <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
         <li class="nav-item"><a class="nav-link" href="blog.html">Quién soy</a></li>
         <li class="nav-item"><a class="nav-link" href="resume.html">Mi CV</a></li>
-        <li class="nav-item"><a class="nav-link" href="resume.html#contacto">Contacto</a></li>
+        <li class="nav-item"><a class="nav-link" href="resume.html#proyectos">Proyectos</a></li>
       </ul>
     </div>
   </div>
@@ -250,92 +250,65 @@
 
       <!--Contacto-->
 
-      <div id="contacto">
-        <a href="resume.html#contacto"
-          ><h2 class="intro contacto">CONTACTO</h2></a
+      <div id="proyectos">
+        <a href="resume.html#proyectos"
+          ><h2 class="intro contacto">MIS PROYECTOS</h2></a
         >
+      </div>
+<div class="carouselCenter">
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+      aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
 
-        <form method="POST" action="#">
-          <fieldset>
-            <legend>Dejame tu consulta</legend>
-            <ul>
-              <li>
-                <label for="nombre">Nombre y apellido:</label>
-                <input type="text" id="nombre" name="nombre" required />
-              </li>
-
-              <li>
-                <label for="tel">Teléfono:</label>
-                <input
-                  type="tel"
-                  id="tel"
-                  name="tel"
-                  placeholder="No olvides tu código de área"
-                  required
-                />
-              </li>
-
-              <li>
-                <label for="email">Email:</label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="ejemplo@gmail.com"
-                  required
-                />
-              </li>
-
-              <li>
-                <label for="empresa">Empresa:</label>
-                <input
-                  type="text"
-                  id="empresa"
-                  name="empresa"
-                  placeholder="Sólo en caso de pertenecer a una"
-                />
-              </li>
-
-              <li>
-                <label for="area">Tu área de trabajo:</label>
-                <select id="area" name="area" required>
-                  <option value="" selected>Seleccioná uno...</option>
-                  <option value="recruiter">Recruiter</option>
-                  <option value="developer">Developer</option>
-                  <option value="tester">Tester</option>
-                  <option value="translater">Translater</option>
-                  <option value="otro">Otro</option>
-                </select>
-              </li>
-
-              <li>
-                <label for="asunto">Asunto:</label>
-                <input type="text" id="asunto" name="asunto" required />
-              </li>
-
-              <li>
-                <label for="mensaje">Mensaje:</label>
-                <textarea
-                  id="mensaje"
-                  name="mensaje"
-                  placeholder="Podés agregar toda la información que sea necesaria. Con mucho gusto me pondré en contacto."
-                  required
-                ></textarea>
-              </li>
-
-              <li>
-                <label for="in">Tu LinkedIn:</label>
-                <input type="text" id="in" name="in" placeholder="Opcional" />
-              </li>
-            </ul>
-
-            <input id="send_to" type="hidden" name="send_to" value="melina00lencina@gmail.com">
-
-            <button type="submit">ENVIAR</button>
-          </fieldset>
-        </form>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/projects/melpasteleria1.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Mi emprendimiento</h2>
+        <p>Yo Puedo Programar (Junior Achievement).</p>
       </div>
     </div>
+    <div class="carousel-item">
+      <img src="img/projects/calc.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Calculadora simple</h2>
+        <p>Frontend Masters Bootcamp.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/projects/quiz.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Quiz simple</h2>
+        <p>Frontend Masters Bootcamp.</p>
+      </div>
+    </div>
+        <div class="carousel-item">
+          <img src="img/projects/jsmovistar.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Práctica de JavaScript</h2>
+            <p>Front End ED3 (Fundación Telefónica).</p>
+          </div>
+        </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+    </div>
+
+    <br><br>
+<hr>
 
     <!--Footer-->
 
