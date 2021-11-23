@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Satisfy&family=Parisienne&family=Libre+Franklin:ital,wght@1,300;1,600&family=Nunito:wght@800&family=Arvo:wght@700&display=swap');
 
 body {
+    color: white;
     font-family: 'Ubuntu', sans-serif;
-    background: linear-gradient(85deg, rgb(31, 189, 168), rgb(240, 115, 252));
+    background: linear-gradient(85deg, rgb(36, 36, 36), rgb(72, 11, 78), rgb(0, 0, 0));
     margin: 0;
     padding: 0;
 }
@@ -16,6 +17,7 @@ body {
 /* HEADER y NAV */
 
 .logo {
+    color: white;
     font-family: 'Parisienne', cursive;
     padding: 0;
 }
@@ -30,7 +32,7 @@ body {
 #mainNav {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background: linear-gradient(85deg, rgb(31, 189, 168), rgb(240, 115, 252));
+    background: linear-gradient(85deg, rgb(36, 36, 36), rgb(72, 11, 78), rgb(0, 0, 0));
 }
 
 .nav-item {
@@ -183,7 +185,7 @@ p.reminder a:hover {
 }
 
 a, a:visited {
-    color: black;
+    color: rgb(142, 245, 231);
     text-decoration: none;
 }
 
@@ -437,8 +439,17 @@ h2.bienvenido {
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.blog-gifs, .inicio-pics {
+.blog-gifs {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+.card-group{
+    margin-top: 9rem;
+    display: flex;
+}
+
+.card-img-top{
+    height: 280px;
 }
