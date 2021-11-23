@@ -17,15 +17,14 @@ body {
 /* HEADER y NAV */
 
 .logo {
-    color: white;
+color: rgb(206, 206, 206);
     font-family: 'Parisienne', cursive;
     padding: 0;
+    text-shadow: 2px 2px 2px black;
 }
 
 .logo:hover {
-    color: #ec74fa;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    color: grey;
 }
 
 
@@ -186,6 +185,7 @@ p.reminder a:hover {
 
 .card-title a, .card-title a:visited {
     color: rgb(142, 245, 231);
+    font-weight: 700;
 }
 
 a{
