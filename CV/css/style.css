@@ -229,9 +229,11 @@ img.ofi {
 
 .intro {
     font-family: 'Libre Franklin', sans-serif;
-    font-size: 2.4rem;
+    font-size: 2.8rem;
+    color: black;
     text-align: center;
     border: 6px double rgb(71, 71, 71);
+    font-weight: 700;
 }
 
 .intro:hover {
@@ -394,6 +396,7 @@ h2.bienvenido {
 .card-group{
     margin-top: 9rem;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .card-img-top{
@@ -419,6 +422,36 @@ h2.bienvenido {
     font-weight: 700;
 }
 
-/* .carousel-caption {
-    
-} */
+.carousel-caption {
+    font-size: 1.8rem;
+    color: rgb(142, 245, 231);
+}
+
+.carousel-caption h2{
+    color: black;
+    font-family: 'Satisfy';
+    font-size: 4rem;
+    text-shadow: 5px 3px 8px white;
+}
+
+.carousel-caption p{
+    background-color: black;
+    opacity: 80%;
+}
+
+.habilidades .card-group{
+    color: rgb(142, 245, 231);
+    margin: 0;
+    margin-bottom: 1.2rem;
+    display: flex;
+}
+
+.habilidades .card{
+    margin: 0 1.3rem;
+    background-color: rgb(17, 17, 17) !important;
+}
+
+
+.habilidades .card-title{
+    font-size: 1.8rem;
+}
