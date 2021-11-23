@@ -184,8 +184,11 @@ p.reminder a:hover {
     color: rgb(207, 240, 88);    
 }
 
-a, a:visited {
+.card-title a, .card-title a:visited {
     color: rgb(142, 245, 231);
+}
+
+a{
     text-decoration: none;
 }
 
@@ -383,6 +386,10 @@ footer li img {
     width: 2.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
+}
+
+footer a, footer a:visited{
+color: white;
 }
 
 /* RESPONSIVE */
