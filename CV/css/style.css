@@ -163,7 +163,7 @@ h2.bienvenido {
 }
 
 .gracias p {
-    font-size: 6rem;
+    font-size: 5rem;
     margin: 0;
 }
 
@@ -437,7 +437,7 @@ h2.bienvenido {
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.blog-gifs {
+.blog-gifs, .inicio-pics {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
