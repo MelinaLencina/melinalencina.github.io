@@ -46,44 +46,12 @@ a.logo h1 {
     max-width: 100%;
 }
 
-.portada {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/portada.jpg);
-    background-size: cover;
-}
-
 h2.bienvenido {
     font-size: 620%;
     font-family: 'Libre Franklin', sans-serif;
     color: rgb(142, 245, 231);
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 2px;
-}
-
-.portada p {
-    color: white;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-    text-shadow: 2px 2px 3px black;
-    font-size: 2.5rem;
-    font-family: 'Arvo', serif;
-    text-align: center;
-    line-height: 4rem;
-}
-
-.inicio {
-    display: flex;
-    justify-content: space-around;
-    margin: 10rem 0 0 0;
-}
-
-.inicio img {
-    width: 30%;
-    border-radius: 3rem;
 }
 
 
@@ -351,7 +319,7 @@ footer a:visited {
 
 /* RESPONSIVE */
 
-header.masthead {
+header.inicio {
     padding-top: 15rem;
     padding-bottom: 13rem;
     margin-bottom: 4rem;
@@ -373,7 +341,7 @@ h2.bienvenido {
     -webkit-text-stroke-width: 2px;
 }
 
-#portada p {
+.portada p {
     color: white;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
