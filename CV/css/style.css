@@ -17,11 +17,13 @@ body {
 
 /* HEADER y NAV */
 
-.logo {
-color: rgb(206, 206, 206);
+a.logo h1 {
+    color: rgb(206, 206, 206);
     font-family: 'Parisienne', cursive;
-    padding: 0;
     text-shadow: 2px 2px 2px black;
+    margin-left: 3rem;
+    font-size: 4rem;
+    font-weight: 700;
 }
 
 .logo:hover {
@@ -29,9 +31,8 @@ color: rgb(206, 206, 206);
 }
 
 
-#mainNav {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+.navbar {
+    padding: 1rem 0;
     background: linear-gradient(85deg, rgb(36, 36, 36), rgb(72, 11, 78), rgb(0, 0, 0));
 }
 
@@ -41,18 +42,18 @@ color: rgb(206, 206, 206);
 
 /* INICIO */
 
-.container{
-    max-width:100%;
+.container {
+    max-width: 100%;
 }
 
 .portada {
-	min-height: 100vh;
-	display: flex;
-	justify-content: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../img/portada.jpg);
-    background-size: cover;   
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/portada.jpg);
+    background-size: cover;
 }
 
 h2.bienvenido {
@@ -107,8 +108,8 @@ h2.bienvenido {
 /* BLOG: QUIÉN SOY */
 
 .cordoba {
-	display: grid;
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/cordoba.jpg');
+    display: grid;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/cordoba.jpg');
     background-size: cover;
     width: 100vw;
     height: 130vh;
@@ -146,13 +147,14 @@ h2.bienvenido {
 
 .pandemia {
     display: grid;
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/tecnologia.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/tecnologia.jpg");
     background-size: cover;
     margin-top: 6rem;
     padding: 3rem;
 }
 
-.pandemia p, .gracias p {
+.pandemia p,
+.gracias p {
     font-family: 'Nunito', sans-serif;
     font-size: 3rem;
     text-align: center;
@@ -164,7 +166,7 @@ h2.bienvenido {
 
 .gracias {
     display: grid;
-    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("../img/gracias.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("../img/gracias.png");
     background-size: cover;
     padding: 12rem;
     margin: 4rem 0;
@@ -190,12 +192,13 @@ p.reminder a:hover {
     color: rgb(72, 11, 78);
 }
 
-.card-title a, .card-title a:visited {
+.card-title a,
+.card-title a:visited {
     color: rgb(142, 245, 231);
     font-weight: 700;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -248,7 +251,8 @@ img.ofi {
     color: rgb(142, 245, 231);
 }
 
-p.experiencia, .experiencia-info{
+p.experiencia,
+.experiencia-info {
     font-size: 2rem;
     text-align: right;
     margin: 0;
@@ -259,19 +263,21 @@ p.experiencia {
     margin-top: 3rem;
 }
 
-p.experiencia-info{
+p.experiencia-info {
     font-style: italic;
     font-size: 1.1rem;
 }
 
-.contenido, .tareas {
+.contenido,
+.tareas {
     display: flex;
     flex-flow: column;
     font-size: 1.2rem;
     margin: 0.8rem 0;
 }
 
-.contenido li, .tareas li {
+.contenido li,
+.tareas li {
     text-align: right;
     list-style-position: inside;
 }
@@ -283,14 +289,16 @@ p.experiencia-info{
     margin: 10% 0;
 }
 
-.habilidades-lista, .habilidades-lista2{
+.habilidades-lista,
+.habilidades-lista2 {
     display: flex;
     justify-content: space-around;
     padding: 0;
 }
 
-.habilidades-lista li, .habilidades-lista2 li {
-    color:rgb(142, 245, 231);
+.habilidades-lista li,
+.habilidades-lista2 li {
+    color: rgb(142, 245, 231);
     background-color: rgb(17, 17, 17);
     font-size: 1.8rem;
     list-style: none;
@@ -336,8 +344,9 @@ footer li img {
     padding-right: 1rem;
 }
 
-footer a, footer a:visited{
-color: white;
+footer a,
+footer a:visited {
+    color: white;
 }
 
 /* RESPONSIVE */
@@ -348,7 +357,7 @@ header.masthead {
     margin-bottom: 4rem;
     text-align: center;
     color: black;
-    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../img/portada.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/portada.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center;
@@ -375,10 +384,10 @@ h2.bienvenido {
     line-height: 4rem;
 }
 
-  .col-lg-4 {
-      flex: 0 0 auto;
-      width: 33.33333333%;
-  }
+.col-lg-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
 
 .btn.btn-circle {
     padding: 1rem;
@@ -400,33 +409,33 @@ h2.bienvenido {
     flex-wrap: wrap;
 }
 
-.card-group{
+.card-group {
     margin-top: 9rem;
     display: flex;
     flex-wrap: wrap;
 }
 
-.card-img-top{
+.card-img-top {
     height: 280px;
 }
 
-.carousel{
+.carousel {
     margin-top: 3rem;
     width: 70%;
 }
 
 
 
-.carouselCenter{
+.carouselCenter {
     display: flex;
     justify-content: center;
 }
 
-.carousel-item img{
+.carousel-item img {
     height: 90%;
 }
 
-.carousel-caption{
+.carousel-caption {
     text-shadow: 2px 2px 2px black;
     font-weight: 700;
 }
@@ -436,33 +445,34 @@ h2.bienvenido {
     color: rgb(0, 0, 0);
 }
 
-.carousel-caption h2, .carousel-caption a{
+.carousel-caption h2,
+.carousel-caption a {
 
     font-family: 'Satisfy';
     font-weight: 700;
     font-size: 4rem;
-color: rgb(142, 245, 231);
-text-shadow: 2px 2px 2px black;
+    color: rgb(142, 245, 231);
+    text-shadow: 2px 2px 2px black;
 }
 
-.carousel-caption a:hover{
+.carousel-caption a:hover {
     color: rgb(43, 94, 87)
 }
 
-.carousel-caption h2 a.js{
+.carousel-caption h2 a.js {
     font-size: 3.7rem;
 }
 
-.carousel-caption p{
+.carousel-caption p {
     color: white;
     font-size: 2rem;
     line-height: 1.8rem;
     -webkit-text-stroke-width: 1.8px;
--webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: black;
     text-shadow: none;
-font-family: 'Balsamiq Sans',
-cursive;
-font-weight: 700;
+    font-family: 'Balsamiq Sans',
+        cursive;
+    font-weight: 700;
 }
 
 
@@ -470,19 +480,19 @@ font-weight: 700;
 
 
 
-.habilidades .card-group{
+.habilidades .card-group {
     color: rgb(142, 245, 231);
     margin: 0;
     margin-bottom: 1.2rem;
     display: flex;
 }
 
-.habilidades .card{
+.habilidades .card {
     margin: 0 1.3rem;
     background-color: rgb(17, 17, 17) !important;
 }
 
 
-.habilidades .card-title{
+.habilidades .card-title {
     font-size: 1.8rem;
 }
