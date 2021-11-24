@@ -292,26 +292,6 @@ p.top {
     margin: 0 2rem;
 }
 
-footer {
-    font-size: 1rem;
-    padding-bottom: 0.6rem;
-    text-align: center;
-}
-
-footer ul {
-    padding: 0;
-}
-
-footer li {
-    display: inline-block;
-}
-
-footer li img {
-    width: 2.5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
 footer a,
 footer a:visited {
     color: white;
