@@ -196,24 +196,33 @@ img.foto {
 
 img.coding {
     width: 98%;
-    margin-top: 30%;
+    margin-top: 50%;
 }
 
 img.ofi {
     width: 98%;
-    margin-top: 26%;
+    margin-top: 46%;
 }
 
 .intro {
     font-family: 'Libre Franklin', sans-serif;
     font-size: 2.8rem;
-    color: black;
     text-align: center;
     border: 6px double rgb(71, 71, 71);
     font-weight: 700;
 }
 
-.intro:hover {
+.intro.body{
+    margin-top: 6rem;
+}
+
+.intro a{
+    color: black;
+}
+
+/*REVISAR HOVER INTRO*/
+.intro a:hover,
+.intro:hover{
     background-color: black;
     color: rgb(142, 245, 231);
 }
