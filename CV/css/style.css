@@ -124,7 +124,6 @@ h2.bienvenido {
 .pandemia p,
 .gracias p {
     font-family: 'Nunito', sans-serif;
-    font-size: 3rem;
     text-align: center;
     color: white;
     -webkit-text-stroke-color: black;
@@ -355,6 +354,10 @@ h2.bienvenido {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+.blog-gifs img{
+    height: 300px;
 }
 
 .card-group {
