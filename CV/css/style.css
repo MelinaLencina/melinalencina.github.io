@@ -218,13 +218,14 @@ img.ofi {
 
 .intro a{
     color: black;
+    display: block;
 }
 
 /*REVISAR HOVER INTRO*/
-.intro a:hover,
-.intro:hover{
+.intro a:hover{
+    color: rgb(142, 245, 231);    
     background-color: black;
-    color: rgb(142, 245, 231);
+
 }
 
 p.experiencia,
