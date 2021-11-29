@@ -26,7 +26,7 @@ a.logo h1 {
     font-weight: 700;
 }
 
-.logo:hover {
+.logo h1:hover {
     color: grey;
 }
 
@@ -79,8 +79,8 @@ h2.bienvenido {
     display: grid;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/cordoba.jpg');
     background-size: cover;
-    width: 100vw;
-    height: 130vh;
+    margin-top: 2rem;
+    padding: 3rem;
 }
 
 .section-subheading {
@@ -165,6 +165,10 @@ p.reminder a:hover {
     font-weight: 700;
 }
 
+.card-title a:hover{
+    color: rgb(43, 94, 87);
+}
+
 a {
     text-decoration: none;
 }
@@ -185,7 +189,7 @@ a {
 }
 
 .main aside {
-    min-width: 35%;
+    min-width: 45%;
     width: calc((48em - 100%) * 1000);
     max-width: 100%;
 }
@@ -201,7 +205,12 @@ img.coding {
 
 img.ofi {
     width: 98%;
-    margin-top: 46%;
+    margin-top: 15%;
+}
+
+img.pasteleria {
+    width: 100%;
+    margin-top: 40%;
 }
 
 .intro {
