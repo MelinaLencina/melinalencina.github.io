@@ -9,6 +9,7 @@ body {
     padding: 0;
 }
 
+
 .wrapper {
     width: 85%;
     margin: 0 auto;
@@ -46,13 +47,7 @@ a.logo h1 {
     max-width: 100%;
 }
 
-h2.bienvenido {
-    font-size: 620%;
-    font-family: 'Libre Franklin', sans-serif;
-    color: rgb(142, 245, 231);
-    -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: 2px;
-}
+
 
 
 .info {
@@ -200,7 +195,7 @@ img.foto {
 
 img.coding {
     width: 98%;
-    margin-top: 50%;
+    margin-top: 70%;
 }
 
 img.ofi {
@@ -230,7 +225,6 @@ img.pasteleria {
     display: block;
 }
 
-/*REVISAR HOVER INTRO*/
 .intro a:hover{
     color: rgb(142, 245, 231);    
     background-color: black;
@@ -266,6 +260,15 @@ p.experiencia-info {
 .tareas li {
     text-align: right;
     list-style-position: inside;
+}
+
+.contenido a {
+    color: rgb(142, 245, 231);
+    font-weight: 700;
+}
+
+.contenido a:hover {
+color: rgb(43, 94, 87);
 }
 
 /* HABILIDADES */
@@ -331,7 +334,7 @@ header.inicio {
 }
 
 h2.bienvenido {
-    font-size: 620%;
+    font-size: 5rem;
     font-family: 'Libre Franklin', sans-serif;
     color: rgb(142, 245, 231);
     font-weight: 700;
