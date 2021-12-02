@@ -26,10 +26,10 @@ body {
 a.logo h1 {
     color: rgb(206, 206, 206);
     font-family: 'Parisienne', cursive;
-    text-shadow: 2px 2px 2px #000000;
-    margin-left: 3rem;
     font-size: 3.5rem;
     font-weight: 700;
+    text-shadow: 2px 2px 2px #000000;
+    margin-left: 3rem;
 }
 
 .logo h1:hover {
@@ -53,37 +53,37 @@ a.logo h1 {
 }
 
 header.inicio {
-    padding-top: 15rem;
-    padding-bottom: 13rem;
-    margin-bottom: 4rem;
-    text-align: center;
     color: #000000;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/portada.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center;
     background-size: cover;
+    text-align: center;
+    padding-top: 15rem;
+    padding-bottom: 13rem;
+    margin-bottom: 4rem;
 }
 
 h2.bienvenido {
+    color: rgb(142, 245, 231);
     font-size: 5rem;
     font-family: 'Libre Franklin', sans-serif;
-    color: rgb(142, 245, 231);
     font-weight: 700;
+    text-align: center;
     -webkit-text-stroke-color: #000000;
     -webkit-text-stroke-width: 2px;
-    text-align: center;
 }
 
 .portada p {
     color: #ffffff;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #000000;
-    text-shadow: 2px 2px 3px #000000;
     font-size: 2.5rem;
     font-family: 'Arvo', serif;
     text-align: center;
     line-height: 4rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
+    text-shadow: 2px 2px 3px #000000;
 }
 
 .card-group {
@@ -116,18 +116,6 @@ h2.bienvenido {
     padding: 3rem;
 }
 
-.section-subheading {
-    color: #ffffff;
-    font-size: 3rem;
-    font-family: 'Arvo', serif;
-    text-align: center;
-    -webkit-text-stroke-color: #000000;
-    -webkit-text-stroke-width: 2px;
-    text-shadow: 7px 4px 5px #000000;
-    margin: 0 0 4rem 0;
-    padding: 0 2rem;
-}
-
 .section-heading {
     color: rgb(240, 115, 252);
     font-size: 6rem;
@@ -138,6 +126,18 @@ h2.bienvenido {
     -webkit-text-stroke-width: 2px;
     text-shadow: 7px 4px 5px #000000;
     margin-top: 8rem;
+}
+
+.section-subheading {
+    color: #ffffff;
+    font-size: 3rem;
+    font-family: 'Arvo', serif;
+    text-align: center;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 2px;
+    text-shadow: 7px 4px 5px #000000;
+    margin: 0 0 4rem 0;
+    padding: 0 2rem;
 }
 
 .tecnologia p {
@@ -337,8 +337,8 @@ p.experiencia-info {
 /* PROYECTOS */
 
 .carousel {
-    margin-top: 3rem;
     width: 70%;
+    margin-top: 3rem;
 }
 
 .carouselCenter {
@@ -351,13 +351,10 @@ p.experiencia-info {
 }
 
 .carousel-caption {
-    font-weight: 700;
-    text-shadow: 2px 2px 2px #000000;
-}
-
-.carousel-caption {
     color: rgb(0, 0, 0);
     font-size: 1.8rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px #000000;
 }
 
 .carousel-caption h2,
@@ -367,15 +364,6 @@ p.experiencia-info {
     font-family: 'Satisfy';
     font-weight: 700;
     text-shadow: 2px 2px 2px #000000;
-}
-
-.carousel-caption a:hover {
-    color: rgb(43, 94, 87)
-}
-
-.carousel-caption h2 a.js,
-.carousel-caption h2 a.melpast {
-    font-size: 3rem;
 }
 
 .carousel-caption p {
@@ -390,9 +378,16 @@ p.experiencia-info {
     line-height: 1.8rem;
 }
 
+.carousel-caption a:hover {
+    color: rgb(43, 94, 87)
+}
+
+.carousel-caption h2 a.js,
+.carousel-caption h2 a.melpast {
+    font-size: 3rem;
+}
 
 /* FOOTER */
-
 
 footer a,
 footer a:visited {
@@ -411,33 +406,14 @@ footer a:visited {
 }
 
 .btn.btn-circle {
-    padding: 1rem;
-    border-radius: 25px;
     font-size: 8px;
     text-align: center;
+    border-radius: 25px;
     border: none;
+    padding: 1rem;
 }
 
 /* RESPONSIVE */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 991px) {
 
@@ -479,13 +455,8 @@ footer a:visited {
         padding: 3rem 2rem 4.5rem 2rem;
     }
 
-    .tecnologia p {
-        font-size: 1.2rem;
-    }
-
     .section-heading {
         font-size: 3rem;
-        -webkit-text-stroke-color: #000000;
         -webkit-text-stroke-width: 1px;
     }
 
@@ -495,6 +466,14 @@ footer a:visited {
         -webkit-text-stroke-color: unset;
         margin: 0;
         padding: 0;
+    }
+
+    .tecnologia p {
+        font-size: 1.2rem;
+    }
+
+    .blog-gifs img {
+        width: 275px;
     }
 
     .pandemia p {
@@ -511,7 +490,6 @@ footer a:visited {
     .gracias p {
         font-size: 2.2rem;
         -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: #000000;
         text-shadow: 2px 1px 2px #000000;
         letter-spacing: unset;
         line-height: 2rem;
@@ -524,10 +502,6 @@ footer a:visited {
         -webkit-text-stroke-width: 0.8px;
         text-shadow: 0.8px 0.8px 1px #000000;
 
-    }
-
-    .blog-gifs img {
-        width: 275px;
     }
 
     /* MI CV: foto y experiencias */
@@ -546,18 +520,18 @@ footer a:visited {
     }
 
     img.coding {
-        margin-top: 20%;
         width: 95%;
+        margin-top: 20%;
     }
 
     img.ofi {
-        margin-top: 10%;
         width: 95%;
+        margin-top: 10%;
     }
 
     img.pasteleria {
-        margin-top: 15%;
         width: 95%;
+        margin-top: 15%;
     }
 
     p.experiencia,
@@ -570,10 +544,12 @@ footer a:visited {
         font-size: 1rem;
     }
 
+    /* HABILIDADES */
+
     .habilidades .card-group {
-        margin: 0 2rem;
         justify-content: center;
         align-items: center;
+        margin: 0 2rem;
     }
 
     .habilidades .card-body {
@@ -589,9 +565,15 @@ footer a:visited {
         margin: 0;
     }
 
+    /* PROYECTOS */
+
     .carousel {
-        margin: 1rem;
         width: 90%;
+        margin: 1rem;
+    }
+
+    .carousel-caption {
+        font-size: 1rem;
     }
 
     .carousel-caption h2,
@@ -599,20 +581,18 @@ footer a:visited {
         font-size: 1.6rem;
     }
 
-    .carousel-caption {
-        font-size: 1rem;
-    }
-
     .carousel-caption p {
         font-size: 1.2rem;
-        line-height: 1.3rem;
         -webkit-text-stroke-width: 0.8px;
+        line-height: 1.3rem;
     }
 
     .carousel-caption h2 a.js,
-    .carousel-caption a.melpast {
+    .carousel-caption h2 a.melpast {
         font-size: 1.3rem;
     }
+
+    /* FOOTER */
 
     .footer {
         font-size: 0.8rem;
