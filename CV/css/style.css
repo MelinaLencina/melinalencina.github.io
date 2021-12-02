@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Satisfy&family=Parisienne&family=Libre+Franklin:ital,wght@1,300;1,600&family=Nunito:wght@800&family=Arvo:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,700;1,400&family=Balsamiq+Sans:wght@400;700&family=Caveat:wght@700&family=Outfit&family=Road+Rage&family=Roboto+Slab:wght@400;500&display=swap');
 
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
 body {
     color: white;
     font-family: 'Ubuntu', sans-serif;
@@ -71,7 +78,7 @@ a.logo h1 {
 /* BLOG: QUIÉN SOY */
 
 .cordoba {
-    display: grid;
+    display: flex;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/cordoba.jpg');
     background-size: cover;
     margin-top: 2rem;
@@ -109,7 +116,7 @@ a.logo h1 {
 }
 
 .pandemia {
-    display: grid;
+    display: flex;
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/tecnologia.jpg");
     background-size: cover;
     margin-top: 6rem;
@@ -127,7 +134,7 @@ a.logo h1 {
 }
 
 .gracias {
-    display: grid;
+    display: flex;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("../img/gracias.png");
     background-size: cover;
     padding: 12rem;
@@ -168,6 +175,21 @@ a {
     text-decoration: none;
 }
 
+@media (max-width: 991px) {
+
+    .cordoba{
+display: grid;
+    }
+
+    .section-heading{
+        font-size: 2rem;
+    }
+    .section-subheading{
+        font-size: 1.3rem;
+        padding: 0;
+        margin: 0;
+    }
+}
 
 /* MI CV: foto y experiencias */
 
