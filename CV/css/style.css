@@ -30,7 +30,7 @@ a.logo h1 {
     font-family: 'Parisienne', cursive;
     text-shadow: 2px 2px 2px black;
     margin-left: 3rem;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 700;
 }
 
@@ -45,7 +45,7 @@ a.logo h1 {
 }
 
 .nav-item {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
 }
 
 /* INICIO */
@@ -125,6 +125,7 @@ a.logo h1 {
 
 .pandemia p,
 .gracias p {
+    font-size: 3rem;
     font-family: 'Nunito', sans-serif;
     text-align: center;
     color: white;
@@ -167,7 +168,7 @@ p.reminder a:hover {
     font-weight: 700;
 }
 
-.card-title a:hover{
+.card-title a:hover {
     color: rgb(43, 94, 87);
 }
 
@@ -175,21 +176,6 @@ a {
     text-decoration: none;
 }
 
-@media (max-width: 991px) {
-
-    .cordoba{
-display: grid;
-    }
-
-    .section-heading{
-        font-size: 2rem;
-    }
-    .section-subheading{
-        font-size: 1.3rem;
-        padding: 0;
-        margin: 0;
-    }
-}
 
 /* MI CV: foto y experiencias */
 
@@ -238,17 +224,17 @@ img.pasteleria {
     font-weight: 700;
 }
 
-.intro.body{
+.intro.body {
     margin-top: 6rem;
 }
 
-.intro a{
+.intro a {
     color: black;
     display: block;
 }
 
-.intro a:hover{
-    color: rgb(142, 245, 231);    
+.intro a:hover {
+    color: rgb(142, 245, 231);
     background-color: black;
 
 }
@@ -290,7 +276,7 @@ p.experiencia-info {
 }
 
 .contenido a:hover {
-color: rgb(43, 94, 87);
+    color: rgb(43, 94, 87);
 }
 
 /* HABILIDADES */
@@ -362,6 +348,7 @@ h2.bienvenido {
     font-weight: 700;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 2px;
+    text-align: center;
 }
 
 .portada p {
@@ -400,7 +387,7 @@ h2.bienvenido {
     flex-wrap: wrap;
 }
 
-.blog-gifs img{
+.blog-gifs img {
     height: 300px;
 }
 
@@ -445,7 +432,7 @@ h2.bienvenido {
 
     font-family: 'Satisfy';
     font-weight: 700;
-    font-size: 4rem;
+    font-size: 3.3rem;
     color: rgb(142, 245, 231);
     text-shadow: 2px 2px 2px black;
 }
@@ -454,8 +441,8 @@ h2.bienvenido {
     color: rgb(43, 94, 87)
 }
 
-.carousel-caption h2 a.js {
-    font-size: 3.7rem;
+.carousel-caption h2 a.js, .carousel-caption a.melpast {
+    font-size: 3rem;
 }
 
 .carousel-caption p {
@@ -490,4 +477,187 @@ h2.bienvenido {
 
 .habilidades .card-title {
     font-size: 1.8rem;
+}
+
+@media (max-width: 991px) {
+
+    a.logo h1 {
+        font-size: 2.3rem;
+        margin: 1.2rem 0;
+    }
+
+    .nav-item {
+        font-size: 1.2rem;
+    }
+
+    /* INICIO */
+
+    header.inicio {
+        padding: 7rem 0;
+        margin-top: 4rem;
+    }
+
+    h2.bienvenido {
+        font-size: 3.2rem;
+        -webkit-text-stroke-width: 1.3px;
+    }
+
+    .portada p {
+        font-size: 2rem;
+        line-height: 2.7rem;
+        -webkit-text-stroke-width: 1.3px;
+    }
+
+    .card-img-top {
+        width: 100%;
+    }
+
+
+    .cordoba {
+        display: grid;
+        padding: 3rem 2rem 4.5rem 2rem;
+    }
+
+    .tecnologia p {
+        font-size: 1.2rem;
+    }
+
+    .section-heading {
+        font-size: 3rem;
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: 1px;
+    }
+
+    .section-subheading {
+        font-size: 1.2rem;
+        -webkit-text-stroke-width: unset;
+        -webkit-text-stroke-color: unset;
+        margin: 0;
+        padding: 0;
+    }
+
+    .pandemia p {
+        -webkit-text-stroke-width: unset;
+        -webkit-text-stroke-color: unset;
+        font-size: 1.3rem;
+    }
+
+    .gracias {
+        padding: 5rem 0;
+        margin: 0;
+    }
+
+    .gracias p {
+        font-size: 2.2rem;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+        text-shadow: 2px 1px 2px black;
+        letter-spacing: unset;
+        line-height: 2rem;
+
+    }
+
+    p.reminder {
+        font-size: 1.4rem;
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: 0.8px;
+        text-shadow: 0.8px 0.8px 1px black;
+
+    }
+
+    .blog-gifs img {
+        width: 275px;
+    }
+
+    /* MI CV: foto y experiencias */
+
+    .intro {
+        font-size: 1.7rem;
+        margin-top: 1rem;
+    }
+
+    .intro.body {
+        margin-top: 3rem;
+    }
+
+    img.foto {
+        width: 65%;
+    }
+
+    img.coding {
+        margin-top: 20%;
+        width: 95%;
+    }
+
+    img.ofi {
+        margin-top: 10%;
+        width: 95%;
+    }
+
+    img.pasteleria {
+        margin-top: 15%;
+        width: 95%;
+    }
+
+    p.experiencia,
+    .experiencia-info {
+        font-size: 1.8rem;
+    }
+
+    .contenido,
+    .tareas {
+        font-size: 1rem;
+    }
+
+    .habilidades .card-group {
+        margin: 0 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .habilidades .card-body {
+        padding: 0.5rem;
+    }
+
+    .habilidades .card {
+        margin: 0.5rem 0.4rem;
+    }
+
+    .habilidades .card-title {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .carousel {
+        margin: 1rem;
+        width: 90%;
+    }
+
+    .carousel-caption h2,
+    .carousel-caption a {
+        font-size: 1.6rem;
+    }
+
+    .carousel-caption {
+        font-size: 1rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1.2rem;
+        line-height: 1.3rem;
+        -webkit-text-stroke-width: 0.8px;
+    }
+
+    .carousel-caption h2 a.js,
+    .carousel-caption a.melpast {
+        font-size: 1.3rem;
+    }
+
+    .footer {
+        font-size: 0.8rem;
+    }
+
+    .btn.btn-circle {
+        padding: 0.6rem;
+    }
 }
