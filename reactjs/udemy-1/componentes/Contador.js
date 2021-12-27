@@ -11,7 +11,7 @@ const Contador = () => {
             <h1 className={contador < 0 ? "menor" : "mayor"}>Contador: {contador}</h1>
             <hr />
 
+            <button onClick={disminuir}> Disminuir </button>
             <button onClick={aumentar}>Aumentar</button>
-            <button onClick={disminuir}>Disminuir</button>
         </div>)
         }
