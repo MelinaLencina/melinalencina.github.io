@@ -1,10 +1,12 @@
 import './App.css';
 
-function Persona(){
+function Persona(props){
   return(
-    <div>
-      <h3>Nombre: Melina</h3>
-      <p>Fecha de nacimiento: 06/05</p>
+    <div className="persona"
+        style={{backgroundColor: props.color}}
+    >
+      <h3>Nombre: {props.nombre} </h3>
+      <p>Fecha de nacimiento: {props.nacimiento} </p>
     </div>
   )
 }
@@ -13,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <h1>Hola mundo</h1>
-      <Persona />
+      <Persona nombre="Melina" nacimiento="06/05" color="violet" />
     </div>
   );
 }
