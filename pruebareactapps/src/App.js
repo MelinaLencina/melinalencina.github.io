@@ -15,7 +15,9 @@ function App() {
   return (
     <div className="App">
       <h1>Hola mundo</h1>
-      <Persona nombre="Melina" nacimiento="06/05" color="violet" />
+      <Persona nombre="Melina" nacimiento="06/05" color="darkmagenta" />
+      <Persona nombre="Fabiana" nacimiento="05/09" color="pink" />
+      <Persona nombre="Gastón" nacimiento="02/05" color="firebrick" />
     </div>
   );
 }
