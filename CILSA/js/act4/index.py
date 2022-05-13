@@ -1,1 +1,0 @@
-#Realizar un programa en el cual se ingresen dos numeros e informe si el primero es múltiplo del segundo. En caso contrario deberá generar un mensaje adecuado.
