@@ -1,3 +1,4 @@
-nombre = input("Hola, ingrese por favor su nombre: ")
-apellido = input("y su apellido: ")
-print(f"Usted se llama {nombre} {apellido}")
+print("Por favor, ingrese los datos pedidos a continuación:")
+tuNombre = input("Nombre: ")
+tuApellido = input("Apellido: ")
+print(f"¡Hola, {tuNombre} {tuApellido}!")
