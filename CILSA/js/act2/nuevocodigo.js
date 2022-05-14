@@ -1,0 +1,3 @@
+console.log("¡Hola, mundo! Este es mi primer script");
+
+document.write(`La primera forma de insertar JavaScript en HTML es directa. Puedes hacerlo utilizando la etiqueta <script> que debe envolver todo el código JS que escribas. Se puede agregar el código JS: entre las etiquetas <head> entre las etiquetas <body> Dependiendo de dónde agregues el código JavaScript en tu archivo HTML, la carga será diferente`);

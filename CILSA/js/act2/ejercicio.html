@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El primer script</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>Esta página contiene el primer script</p>
+
+    <hr />
+
+    <script>
+        console.log("¡Hola, mundo! Este es mi primer script");
+
+        document.write(`La primera forma de insertar JavaScript en HTML es directa. <br>
+        Podés hacerlo utilizando la etiqueta script que debe envolver<br>
+        todo el código JS que escribas. Se puede agregar entre las<br>
+        etiquetas head o entre las etiquetas body. Dependiendo de dónde agregues el<br>
+        código JavaScript en tu archivo HTML, la carga será diferente. <br>
+        <hr />
+        Es mejor mantener el código JavaScript en archivos separados. Es por esto que <br>
+        la forma más aceptable de incluirlo en HTML es importando archivos externos. <br>
+        Se puede hacer referencia a estos archivos desde adentro de los documentos HTML,<br>
+        al igual que hacemos con los estilos de CSS; en el caso de JavaScript, <br>
+        se utiliza la etiqueta script con el atributo src (source = fuente), que tendrá<br>
+        como valor (entre comillas) el nombre de nuestro archivo externo .js.`);
+        
+        alert(`Ver lo simple que es agregar "comillas dobles" y ‘comillas simples’`);
+    </script>
+</body>
+</html>
