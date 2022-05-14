@@ -1,0 +1,49 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 1.3rem;
+text-align: center;
+}
+
+#container h3{
+    margin-top: 0;
+    margin-bottom: 3rem;
+}
+
+#container h4{
+    font-size: 2.1rem;
+    font-style: normal;
+    margin-bottom: 0;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+#container input{
+    width: 100%;
+}
+
+#datos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 3rem;
+    font-style: italic;
+}
+
+#datos h5{
+    display: block;
+}
+
+input, button{
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.5rem;
+}
+
+button{
+    margin-top: 3rem;
+}

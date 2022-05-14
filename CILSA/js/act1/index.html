@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
+    <div id="container">
+        <div id="datos">
+          <form id="form">
+            <span id="text"><h3>Ingrese sus datos: </h3></span>
+
+            <label for="input">
+              <span id="text"><h4>Nombre: </h4></span>
+              <input type="text" id="nombre" placeholder="Nombre" />
+            </label>
+            <label for="input">
+                <span id="text"><h4>Apellido: </h4></span>
+                <input type="text" id="apellido" placeholder="Apellido" />
+              </label>
+              <label for="input">
+                <span id="text"><h4>Edad: </h4></span>
+                <input type="number" id="edad" placeholder="Edad" />
+              </label><br>
+              <button onclick="respuesta()" id="button">Enviar</button>
+          </form>
+        </div>
+      </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
