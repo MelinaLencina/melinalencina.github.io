@@ -7,10 +7,10 @@ function respuesta() {
     
 
     document.getElementById("datos").innerHTML = 
-    `Nombre: ${nombre}
+    `Según los datos ingresados, su nombre
     <br />
-    Apellido: ${apellido}
+    completo es ${nombre} ${apellido}
     <br />
-    Edad: ${edad} años`;
+    y tiene ${edad} años.`;
 
 }
