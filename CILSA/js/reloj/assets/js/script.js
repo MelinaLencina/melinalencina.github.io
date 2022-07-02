@@ -34,6 +34,9 @@
             amPm = 'PM';
         } else {
             amPm = 'AM';
+        }
+
+        if (hours < 10){
             hours = "0" + hours;
         }
 
