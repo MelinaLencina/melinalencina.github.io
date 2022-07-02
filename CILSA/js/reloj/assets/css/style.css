@@ -48,11 +48,11 @@ body.dark{
     width: 100%;
 }
 
-body.dark div.date, body.dark div.watch{
+body.dark div.date, body.dark div.clock{
     background: rgba(0, 0, 0, .5);
 }
 
-.watch{
+.clock{
     font-family: Oswald, Arial;
     width: 100%;
     padding: 20px;
@@ -61,11 +61,11 @@ body.dark div.date, body.dark div.watch{
     background: rgba(201, 201, 201, 0.5);
 }
 
-.watch .box-seconds{
+.clock .box-seconds{
     display: inline-block;
 }
 
-.watch .seconds, .watch .amPm {
+.clock .seconds, .clock .amPm {
     font-size: 2rem;
     display: block;
 }
