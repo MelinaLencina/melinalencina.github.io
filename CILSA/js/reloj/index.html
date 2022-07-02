@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reloj</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+<script src="https://kit.fontawesome.com/03a89292db.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <nav>
+            <button class="switch" id="switch">
+                <span><i class="fas fa-sun"></i></span>
+                <span><i class="fas fa-moon"></i></span>
+            </button>
+        </nav>
+
+    </div>
+
+    <div class="wrapped">
+        <div class="widget">
+            <div class="date">
+                <p id="dayWeek" class="dayWeek"></p>
+                <p id="day" class="day"></p>    
+                <p id="month" class="month"></p>    
+                <p id="year" class="year"></p>    
+            </div>
+            <div class="watch">
+                <p id="hours" class="hours"></p>
+                <p>:</p>
+                <p id="minutes" class="minutes"></p>
+                <p></p>
+                <div class="box-seconds">
+                <p id="amPm" class="amPm"></p>
+                <p id="seconds" class="seconds"></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

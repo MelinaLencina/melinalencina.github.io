@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../img/sky.jpg);
+    background-size: cover;
+    color: #000;
+    font-size: 1rem;
+}
+
+body.dark{
+    background: url(../img/and.jpg);
+    background-size: cover;
+    color: #fff;
+}
+
+.wrapped{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.widget{
+    width: 40%;
+    margin: 2em;
+    /*margin:32px;*/
+}
+
+.widget p {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.date{
+    font-family: Oswald, Arial;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    background: rgba(201, 201, 201, 0.5);
+    padding: 20px;
+    width: 100%;
+}
+
+body.dark div.date, body.dark div.watch{
+    background: rgba(0, 0, 0, .5);
+}
+
+.watch{
+    font-family: Oswald, Arial;
+    width: 100%;
+    padding: 20px;
+    font-size: 4rem;
+    text-align: center;
+    background: rgba(201, 201, 201, 0.5);
+}
+
+.watch .box-seconds{
+    display: inline-block;
+}
+
+.watch .seconds, .watch .amPm {
+    font-size: 2rem;
+    display: block;
+}
+
+nav {
+    background: rgba(51, 51, 99, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-radius: 5px;
+    transition: .3s ease all;
+
+}
+
+body.dark nav{
+    background: rgba(27, 27, 37, 0.5);
+}
+
+.switch{
+    background: #343D58;
+    border-radius: 1000px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+}
+
+.switch::after{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: #F1F1F1;
+    top: 0;
+    left: 0;
+    right: unset;
+    border-radius: 100px;
+    transition: .3s ease all;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, .2);
+}
+
+.switch.active {
+    background: lightseagreen;
+    color: #000;
+}
+
+.switch.active::after{
+    right: 0;
+    left: unset;
+}
+
+span {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    background: none;
+    color: #fff;
+}
+
