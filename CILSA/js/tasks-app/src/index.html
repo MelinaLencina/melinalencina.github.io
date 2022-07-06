@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Mi rutina</title>
+    <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+  </head>
+  <body>
+
+    <!-- Menú -->
+    <nav class="navbar navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Armá tu rutina:</a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row my-5">
+        <div class="col-md-4">
+
+          <div class="card">
+            <div class="card-body">
+              <!-- Agregar tareas -->
+              <form id="formTarea">
+                <legend>Agregar tarea:</legend>
+                <div class="form-group">
+                  <input type="text" id="urgencia" placeholder="Urgencia: Baja - Media - Alta" class="form-control">
+                </div>
+                <div class="form-group">
+                  <textarea id="descripcion" cols="30" rows="5" class="form-control" placeholder="Describí la tarea.
+Por ej.: lavar la ropa, ir al supermercado, etc."></textarea>
+                </div>
+                <button type="submit" class="btn btn-info btn-block">Agregar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-8">
+          <div id="tareas"></div>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
