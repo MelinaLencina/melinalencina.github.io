@@ -1,10 +1,10 @@
-const pokeCard = document.querySelector('[data-poke-card]');
-const pokeName = document.querySelector('[data-poke-name]');
-const pokeImg = document.querySelector('[data-poke-img]');
-const pokeImgContainer = document.querySelector('[data-poke-img-container]');
-const pokeId = document.querySelector('[data-poke-id]');
-const pokeTypes = document.querySelector('[data-poke-types]');
-const pokeStats = document.querySelector('[data-poke-stats]');
+const pokeCard = document.getElementById('data-card');
+const pokeName = document.getElementById('data-name');
+const pokeImg = document.getElementById('data-img');
+const pokeImgContainer = document.getElementById('data-img-container');
+const pokeId = document.getElementById('data-id');
+const pokeTypes = document.getElementById('data-type');
+const pokeStats = document.getElementById('data-stats');
 
 const typeColors = {
     electric: '#FFEA70',
@@ -27,7 +27,7 @@ const typeColors = {
 };
 
 
-const searchPokemon = event => {
+const pokeSearch = event => {
     event.preventDefault();
     const {
         value
@@ -86,7 +86,7 @@ const renderPokemonStats = stats => {
 }
 
 const renderNotFound = () => {
-    pokeName.textContent = 'No encontrado';
+    pokeName.textContent = 'Not found';
     pokeImg.setAttribute('src', 'poke-shadow.png');
     pokeImg.style.background = '#fff';
     pokeTypes.innerHTML = '';
