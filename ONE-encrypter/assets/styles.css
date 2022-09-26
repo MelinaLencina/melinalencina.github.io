@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.wrapped {
+  position: relative;
+  width: 375px;
+  height: 933px;
+}
+
+.alura {
+  position: absolute;
+  width: 100%;
+  left: 20px;
+  top: 20px;
+}
+
+.dev {
+  position: absolute;
+  color: #ababab;
+  font-family: monospace;
+  font-weight: 100;
+  left: 60px;
+  top: 0px;
+}
+
+.dev a {
+  color: #8a9bee;
+  text-decoration: none;
+}
+
+.dev a:visited {
+  color: #8a9bee;
+}
+
+.dev a:hover,
+.dev a:visited:hover {
+  color: #3d53b3;
+  font-size: 14px;
+}
+
+.form-group {
+  display: flex;
+  justify-content: center;
+}
+
+.form-group label {
+  position: absolute;
+  color: #0a3871;
+  font-family: "Inter";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  width: 343px;
+  height: 48px;
+  padding: 0;
+  margin: 0;
+  top: 152px;
+}
+
+.form-group textarea {
+  position: absolute;
+  font-family: "Inter";
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  top: 220px;
+  border: #0a3871 1px dotted;
+}
+
+.requi {
+  display: flex;
+  justify-content: center;
+}
+
+.information {
+  color: gray;
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 200;
+  position: absolute;
+  top: 260px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.button,
+.copy {
+  position: absolute;
+  color: white;
+  background: #0a3871;
+  font-family: "Inter";
+  width: 300px;
+  height: 67px;
+  top: 350px;
+  border-radius: 24px;
+}
+
+.button:last-child {
+  color: #0a3871;
+  background: white;
+  top: 430px;
+  border: 1px solid #0a3871;
+}
+
+.copy {
+  width: 100px;
+  height: 35px;
+  top: 650px;
+  border-radius: 12px;
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  background: #ffffff;
+}
+
+.message textarea {
+  position: absolute;
+  color: #343a40;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: center;
+  width: 263px;
+  height: 58px;
+  padding: 16px;
+  margin: 32px;
+  top: 500px;
+  box-shadow: 12px 10px 34px -8px rgba(1, 1, 1, 0.3);
+  border-radius: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background: #f3f5fc;
+  }
+
+  .wrapped {
+    height: 100%;
+  }
+
+  .form-group label {
+    left: 34%;
+    top: 80px;
+  }
+
+  .form-group textarea {
+    position: absolute;
+    text-align: left;
+    width: 155%;
+    height: 17rem;
+    left: 34%;
+    top: 140px;
+  }
+
+  .form-buttons {
+    position: absolute;
+    left: 33%;
+    top: 510px;
+  }
+
+  .button {
+    position: static;
+    margin: 5px;
+  }
+
+  .information {
+    font-size: 1.3rem;
+    font-weight: 200;
+    width: 100%;
+    left: 37%;
+    top: 415px;
+  }
+
+  .message textarea {
+    width: 110%;
+    height: 23rem;
+    left: 200%;
+    top: 50px;
+  }
+
+  .copy {
+    width: 40%;
+    height: 2.5rem;
+    left: 250%;
+    top: 535px;
+  }
+}
